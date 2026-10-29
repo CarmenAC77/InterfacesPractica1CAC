@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgba(0,0,25);
+}
+
+/*Cabecera, incluye menú navegación*/
+header{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    margin-top: 30px;
+}
+p.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+a {
+    color: rgba(240,93,80);
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(240,93,80,0.5);
+}
+
+.menu {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.menu li{
+ 
+    list-style: none;
+    color: black;
+    margin-top: 10px;
+    font-size: 1.1rem;
+ }
+
+.menu li a {
+    color: rgba(0,0,25);
+}
+
+.menu a:hover {  
+    color: rgb(0,0,25,0.5);   
+}
+
+a.activo{
+    font-weight:700;
+    font-style: italic;
+}
+
+/*Contenedor principal de contenido*/
+.container {
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section {
+    margin: 0 auto 20px;
+    line-height: 1.7;
+ 
+    
+}
+
+/*html index */
+/*section de la intro*/
+.intro {
+    text-align: center;   
+    line-height: 1.7;
+      
+    
+}
+.intro h1{
+    font-size: 3rem;
+    
+}
+.entrada{   
+    max-width: 850px;  
+    font-size: 1.1rem; 
+
+}
+
+.intro p{
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+.autor {
+    font-size: 1.6rem; 
+}
+.intro p time {
+    font-size: 0.7rem;
+}
+/*section de la foto*/
+.foto img {
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+}
+.foto figcaption {
+    font-size: xx-small;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+    
+}
+
+/*section punto de vista*/
+.puntoVista {
+    font-weight: 700;
+    max-width: 625px;
+    text-align: left;
+    margin: 0;
+    line-height: 1.7;
+}
+/*section genérico*/
+.generico p {
+    margin: 15px auto 15px;
+    font-size: small;
+    
+}
+.generico h2{
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+.video {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.video iframe{
+    max-width: 75%;
+     margin-top: 20px;
+     
+}
+.video figcaption {
+    margin-top: 10px;   
+    font-size: xx-small;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.titulos {
+    font-family: Georgia, Times, serif; 
+  
+    
+}
+/*section cita*/
+.poesia {
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+}
+.poesia p {
+    font-family: Georgia, Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.poesia .discurso {
+    font-family: Georgia, Times, serif;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+.poesia2  {
+    font-family: Georgia, Times, serif;
+    font-size: 0.9rem;
+   
+}
+
+
+/* pie de página común a los 3 html*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: small;
+    color:rgba(255,255,255);
+    background-color: rgba(0,0,25);
+    padding: 30px;
+ 
+
+}
+
+
+/*html listado*/
+
+.enunciado {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    text-align: center;   
+    padding: 15px;
+        
+}
+.enunciado .subtitulo {
+    font-size: 0.7rem;
+    letter-spacing: 0.03rem;
+    margin-top: 15px;
+}
+.idiomas {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 15px;
+    color: rgba(0,0,25,0.5);
+    font-weight: bolder;
+    text-align: left;
+       
+}
+.idiomas h2{
+    font-size: medium;
+}
+
+.idiomas li {
+    margin-bottom: 0.4rem;
+    margin-left: 50px;
+}
+.idiomas a {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.idiomas img {
+    width: 20px;
+   
+}
+.year {
+    color: rgba(0, 0, 25, 0.5);
+    font-weight: bold;
+}
+.enlaceconsulta, .enlaceconsulta a{
+    text-align: center;
+    margin-top: 30px;
+    font-size: x-small;
+    margin-bottom: 30px;
+    
+}
+
+/*ajuste del footer por tener la otra frase*/
+.copy {
+    font-size: 0.7rem;
+    padding: 20px;
+    
+}
+.copy a {
+    color: rgb(255,255,255);
+}
+.copy a:hover {
+    color: rgb(240,93,80);
+}
+
+/*html motivaciones*/
+.enunciado-motivacion{
+    max-width: 1000px;
+}
+.motivaciones dt {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+
+}
+.motivaciones dd {
+    margin-left: 20px;
+}
+.motivaciones em {  
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.motivaciones .year {
+    font-size: 1.1em;
+}
