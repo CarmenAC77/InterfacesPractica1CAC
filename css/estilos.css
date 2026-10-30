@@ -117,9 +117,7 @@ main section {
 .autor {
     font-size: 1.6rem; 
 }
-.intro p time {
-    font-size: 0.7rem;
-}
+
 /*section de la foto*/
 .foto img {
     display: block;
