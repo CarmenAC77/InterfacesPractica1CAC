@@ -291,6 +291,10 @@ footer {
 }
 
 /*html motivaciones*/
+.motivaciones {
+    margin: 0 auto 20px;
+    line-height: 1.7;
+}
 .enunciado-motivacion{
     max-width: 1000px;
 }
