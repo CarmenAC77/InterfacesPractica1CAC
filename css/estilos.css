@@ -201,7 +201,8 @@ main section {
 }
 .poesia2  {
     font-family: Georgia, Times, serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-style: italic;
    
 }
 
@@ -240,7 +241,7 @@ footer {
     margin-top: 15px;
 }
 .idiomas {
-    max-width: 350px;
+    max-width: 450px;
     margin: 0 auto;
     padding: 15px;
     color: rgba(0,0,25,0.5);
@@ -255,6 +256,10 @@ footer {
 .idiomas li {
     margin-bottom: 0.4rem;
     margin-left: 50px;
+    list-style-type: square;
+}
+.idiomas li::marker {
+    color: black;
 }
 .idiomas a {
     font-weight: lighter;
@@ -272,8 +277,8 @@ footer {
 .enlaceconsulta, .enlaceconsulta a{
     text-align: center;
     margin-top: 30px;
-    font-size: x-small;
-    margin-bottom: 30px;
+    font-size: 0.6rem;
+    margin-bottom: 50px;
     
 }
 
@@ -294,6 +299,7 @@ footer {
 .motivaciones {
     margin: 0 auto 20px;
     line-height: 1.7;
+    max-width: 900px;
 }
 .enunciado-motivacion{
     max-width: 1000px;
