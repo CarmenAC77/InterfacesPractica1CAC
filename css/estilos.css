@@ -249,16 +249,19 @@ footer {
     text-align: left;
        
 }
+.lista-idiomas > li {
+    list-style-type:none;
+}
 .idiomas h2{
     font-size: medium;
 }
 
-.idiomas li {
+.lista-idiomas > li > ul > li  {
     margin-bottom: 0.4rem;
     margin-left: 50px;
     list-style-type: square;
 }
-.idiomas li::marker {
+.lista-idiomas > li > ul > li::marker {
     color: black;
 }
 .idiomas a {
@@ -266,7 +269,7 @@ footer {
     font-size: small;
 }
 
-.idiomas img {
+.lista-idiomas img {
     width: 20px;
    
 }
